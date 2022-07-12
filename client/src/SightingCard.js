@@ -10,11 +10,11 @@ const SightingCard = ({sighting, removeSighting}) => {
         })
     }
     return (
-        <div className='sighting-item'>
+        <div className="sighting-item">
             <h1>{sighting.species}</h1>
             <p>Location: {sighting.location}</p>
             <p>Date: {sighting.date}</p>
-            <button onClick={handleDelete}> 💩 </button>
+            <button onClick={handleDelete}> <p className="delete-button">💩</p> </button>
             <hr></hr>
         </div>
     )

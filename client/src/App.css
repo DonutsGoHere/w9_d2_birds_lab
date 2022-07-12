@@ -8,7 +8,9 @@ form {
 	margin: 0 auto;
 	background: rgba(255, 255, 255, 0.7);
 	padding: 20px;
+	margin-top: 20px;
 	margin-bottom: 40px;
+	border: 2px solid black;
 }
 
 label {
@@ -16,25 +18,31 @@ label {
 	display: inline-block;
 }
 
-.formWrap {
-	margin-bottom: 10px;
+hr { 
+	display: none;
 }
 
-/* #sightingsGrid {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-} */
+body {
+	background-color: gray;
+}
 
-#sightings-form {
-	border: 2px solid black;
+.delete-button {
+	font-size: 3em;
+	margin: 0;
+	padding: 0;
 }
 
 .sighting-list{
+	display:grid;
 	text-align: center;
-	background-color: aliceblue;
+	padding: 20px;
+	margin: 20px;
 }
 
 .sighting-item {
+	width:400px;
 	padding: 10px;
+	margin: 10px auto;
+	border: 1px solid black;
+	background-color: aliceblue;
 }
